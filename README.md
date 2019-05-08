@@ -14,7 +14,7 @@ To run the tests, please ensure you have the following installed:
 - Cypress Test Runner useful in debugging your tests. You can also directly inspect from Chrome dev tools.
 
 ## How to run
-Install the project dependencies
+Clone the repo and Install the project dependencies
 ```
 npm i
 ```
