@@ -4,11 +4,13 @@
   "description": "Sample API test framework",
   "main": "index.js",
   "scripts": {
-    "cypress": "./node_modules/.bin/cypress"
+    "cy:test": "cypress run",
+    "cy:open": "cypress open"
   },
   "author": "Marie Cruz",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "3.2.0"
+    "@bahmutov/cy-api": "^1.4.2",
+    "cypress": "4.3.0"
   }
 }
