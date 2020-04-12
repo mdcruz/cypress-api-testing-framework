@@ -4,4 +4,7 @@ node_modules/
 package-lock.json
 
 # screenshots
-cypress/screenshots/*
+cypress/screenshots
+
+# video recordings
+cypress/videos

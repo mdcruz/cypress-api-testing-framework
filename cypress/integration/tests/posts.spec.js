@@ -30,8 +30,8 @@ describe('Post API', () => {
   });
 
   it('should delete a post successfully', () => {
-    cy.api({ method: 'DELETE', url: '/posts/1' }).then((response) => {
-      expect(response.status).to.equal(200);
-    });
+    cy.api({ method: 'DELETE', url: '/posts/1' })
+      .its('status')
+      .should('be.equal', 200);
   });
 });
