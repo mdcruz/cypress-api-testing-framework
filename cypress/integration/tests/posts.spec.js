@@ -9,9 +9,7 @@ describe('Post API', () => {
   });
 
   it('loads the correct amount of posts per user', () => {
-    cy.api({ url: '/posts?userId=1' }).then((response) => {
-      expect(response.body.length).to.equal(10);
-    });
+    cy.api({ url: '/posts?userId=1' }).its('body').should('have.length', 10);
   });
 
   it('should add a new post successfully', () => {
