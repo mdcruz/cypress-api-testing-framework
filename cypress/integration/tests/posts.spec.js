@@ -16,7 +16,7 @@ describe('Post API', () => {
     cy.api({
       method: 'POST',
       url: '/posts?userId=1',
-      qs: {
+      body: {
         userId: 1,
         title: 'foo',
         body: 'var',
