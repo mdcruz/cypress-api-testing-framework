@@ -10,7 +10,7 @@
   "author": "Marie Cruz",
   "license": "ISC",
   "devDependencies": {
-    "@bahmutov/cy-api": "^1.4.2",
-    "cypress": "4.7.0"
+    "@bahmutov/cy-api": "1.5.0",
+    "cypress": "7.2.0"
   }
 }
